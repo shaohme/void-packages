@@ -1,0 +1,22 @@
+# Template file for 'tree-sitter-toml'
+pkgname=tree-sitter-toml
+version=0.5.1
+revision=1
+archs="i686 x86_64"
+#build_wrksrc=
+build_style=cargo
+#configure_args=""
+#make_build_args=""
+#make_install_args=""
+#conf_files=""
+#make_dirs="/var/log/dir 0755 root root"
+hostmakedepends=""
+makedepends="tree-sitter-devel"
+depends="tree-sitter"
+short_desc="Toml grammar for tree-sitter"
+maintainer="Martin Kjær Jørgensen <me@lagy.org>"
+license="MIT"
+homepage="https://github.com/tree-sitter/tree-sitter-toml"
+#changelog=""
+distfiles="https://github.com/tree-sitter/tree-sitter-toml/archive/refs/heads/master.zip"
+checksum=bd3bf792ddfd9e5949f1232a235223ca054c75dd4bc56741a03222e155179ed1

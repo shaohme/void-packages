@@ -1,0 +1,22 @@
+# Template file for 'tree-sitter-typescript'
+pkgname=tree-sitter-typescript
+version=0.21.1
+revision=1
+archs="i686 x86_64"
+#build_wrksrc=
+build_style=gnu-makefile
+#configure_args=""
+#make_build_args=""
+#make_install_args=""
+#conf_files=""
+#make_dirs="/var/log/dir 0755 root root"
+hostmakedepends=""
+makedepends="tree-sitter-devel"
+depends="tree-sitter"
+short_desc="Typescript grammar for tree-sitter"
+maintainer="Martin Kjær Jørgensen <me@lagy.org>"
+license="MIT"
+homepage="https://github.com/tree-sitter/tree-sitter-typescript"
+#changelog=""
+distfiles="https://github.com/tree-sitter/tree-sitter-typescript/archive/refs/tags/v${version}.tar.gz"
+checksum=863c4736748109ed434d685a09d80f2c403937e88828fbcec7e253985586c925

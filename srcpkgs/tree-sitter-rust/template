@@ -1,0 +1,22 @@
+# Template file for 'tree-sitter-rust'
+pkgname=tree-sitter-rust
+version=0.21.2
+revision=1
+archs="i686 x86_64"
+#build_wrksrc=
+build_style=gnu-makefile
+#configure_args=""
+#make_build_args=""
+#make_install_args=""
+#conf_files=""
+#make_dirs="/var/log/dir 0755 root root"
+hostmakedepends=""
+makedepends="tree-sitter-devel"
+depends="tree-sitter"
+short_desc="Rust grammar for tree-sitter"
+maintainer="Martin Kjær Jørgensen <me@lagy.org>"
+license="MIT"
+homepage="https://github.com/tree-sitter/tree-sitter-rust"
+#changelog=""
+distfiles="https://github.com/tree-sitter/tree-sitter-rust/archive/refs/tags/v${version}.tar.gz"
+checksum=65065e6ad5164ff36066d774cb7a2bb41be7f06482e23ac1d464a3881fb2a975

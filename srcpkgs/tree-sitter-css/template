@@ -1,0 +1,22 @@
+# Template file for 'tree-sitter-css'
+pkgname=tree-sitter-css
+version=0.21.0
+revision=1
+archs="i686 x86_64"
+#build_wrksrc=
+build_style=gnu-makefile
+#configure_args=""
+#make_build_args=""
+#make_install_args=""
+#conf_files=""
+#make_dirs="/var/log/dir 0755 root root"
+hostmakedepends=""
+makedepends="tree-sitter-devel"
+depends="tree-sitter"
+short_desc="CSS grammar for tree-sitter "
+maintainer="Martin Kjær Jørgensen <me@lagy.org>"
+license="MIT"
+homepage="https://github.com/tree-sitter/tree-sitter-css"
+#changelog=""
+distfiles="https://github.com/tree-sitter/tree-sitter-css/archive/refs/tags/v${version}.tar.gz"
+checksum=6467221c2ef422ea57834238121e821e2494b37318b837e9741cab096f0cc709

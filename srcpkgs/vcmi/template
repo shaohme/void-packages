@@ -1,0 +1,22 @@
+# Template file for 'vcmi'
+pkgname=vcmi
+version=1.5.2
+revision=1
+archs="i686 x86_64"
+#build_wrksrc=
+build_style=cmake
+#configure_args=""
+#make_build_args=""
+#make_install_args=""
+#conf_files=""
+#make_dirs="/var/log/dir 0755 root root"
+hostmakedepends=""
+makedepends="boost-devel zlib-devel SDL2-devel SDL2_image-devel SDL2_mixer-devel SDL2_ttf-devel pkg-config ffmpeg-devel minizip-devel qt6-base-devel qt6-tools-devel tbb-devel gtk-update-icon-cache doxygen"
+depends=""
+short_desc="Open-source engine for Heroes of Might and Magic III"
+maintainer="Martin Kjær Jørgensen <me@lagy.org>"
+license="GPL-2.0"
+homepage="https://github.com/vcmi/vcmi"
+#changelog=""
+distfiles="https://cephalopo.net/distfiles/1a/vcmi-${version}.tar.gz"
+checksum=b180a83e0e637996139378eb1c4251fc5eb5f01e2b9da5df084b38ea8bea8760

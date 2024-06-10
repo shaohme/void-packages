@@ -1,0 +1,22 @@
+# Template file for 'tree-sitter-javascript'
+pkgname=tree-sitter-javascript
+version=0.21.3
+revision=1
+archs="i686 x86_64"
+#build_wrksrc=
+build_style=gnu-makefile
+#configure_args=""
+#make_build_args=""
+#make_install_args=""
+#conf_files=""
+#make_dirs="/var/log/dir 0755 root root"
+hostmakedepends=""
+makedepends="tree-sitter-devel"
+depends="tree-sitter"
+short_desc="JavaScript grammar for tree-sitter "
+maintainer="Martin Kjær Jørgensen <me@lagy.org>"
+license="MIT"
+homepage="https://github.com/tree-sitter/tree-sitter-javascript"
+#changelog=""
+distfiles="https://github.com/tree-sitter/tree-sitter-javascript/archive/refs/tags/v${version}.tar.gz"
+checksum=88fa4c3bfe8010baf0554768a2bb331c27fb592c1b017de77b6a00ce34169268

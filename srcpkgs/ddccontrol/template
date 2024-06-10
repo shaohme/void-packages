@@ -1,0 +1,18 @@
+# Template file for 'ddccontrol'
+pkgname=ddccontrol
+version=1.0.3
+revision=3
+build_style=gnu-configure
+hostmakedepends="pkg-config intltool libtool autoconf automake gettext-devel"
+makedepends="i2c-tools-devel libxml2-devel pciutils-devel liblzma-devel glib-devel"
+short_desc="DDC Control"
+maintainer="Martin Jørgensen <me@lagy.org>"
+license="GPL-2.0"
+homepage="https://github.com/ddccontrol/ddccontrol"
+distfiles="https://github.com/ddccontrol/ddccontrol/archive/refs/tags/${version}.tar.gz"
+checksum=4f3a3d9a00e09b07423d2aed308b21dccfe57642f5d9bbf79802a0656dd11d1e
+configure_args="--disable-gnome --prefix=/usr --sysconfdir=/etc --libexecdir=/usr/lib --datarootdir=/usr/share --datadir=/usr/share"
+
+pre_configure() {
+	./autogen.sh
+}

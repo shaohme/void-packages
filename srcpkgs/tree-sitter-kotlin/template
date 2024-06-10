@@ -1,0 +1,22 @@
+# Template file for 'tree-sitter-kotlin'
+pkgname=tree-sitter-kotlin
+version=0.3.6
+revision=1
+archs="i686 x86_64"
+#build_wrksrc=
+build_style=gnu-makefile
+#configure_args=""
+#make_build_args=""
+#make_install_args=""
+#conf_files=""
+#make_dirs="/var/log/dir 0755 root root"
+hostmakedepends=""
+makedepends="tree-sitter-devel"
+depends="tree-sitter"
+short_desc="Kotlin grammar for tree-sitter"
+maintainer="Martin Kjær Jørgensen <me@lagy.org>"
+license="MIT"
+homepage="https://github.com/fwcd/tree-sitter-kotlin"
+#changelog=""
+distfiles="https://github.com/fwcd/tree-sitter-kotlin/archive/refs/tags/${version}.tar.gz"
+checksum=272520690f55d29c31e7ba537c66baa27e3335d40eb7de9675a98d85582998e0

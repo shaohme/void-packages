@@ -1,0 +1,17 @@
+# Template file for 'ddccontrol-db'
+pkgname=ddccontrol-db
+version=20240304
+revision=1
+build_style=gnu-configure
+hostmakedepends="pkg-config intltool libtool autoconf automake gettext-devel"
+# makedepends="i2c-tools-devel libxml2-devel pciutils-devel liblzma-devel glib-devel"
+short_desc="DDC Control Monitor Database"
+maintainer="Martin Jørgensen <me@lagy.org>"
+license="GPL-2.0"
+homepage="https://github.com/ddccontrol/ddccontrol-db"
+distfiles="https://github.com/ddccontrol/ddccontrol-db/archive/refs/tags/${version}.tar.gz"
+checksum=6bc407cc3679fd5cf13e264620349466811d88d6263a02df1512df76fa3852c1
+
+pre_configure() {
+	./autogen.sh
+}
