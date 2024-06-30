@@ -1,6 +1,6 @@
 # Template file for 'tree-sitter-cpp'
 pkgname=tree-sitter-cpp
-version=0.22.1
+version=0.22.2
 revision=1
 archs="i686 x86_64"
 #build_wrksrc=
@@ -19,4 +19,4 @@ license="MIT"
 homepage="https://github.com/tree-sitter/tree-sitter-cpp"
 #changelog=""
 distfiles="https://github.com/tree-sitter/tree-sitter-cpp/archive/refs/tags/v${version}.tar.gz"
-checksum=52d5ef73366f7427ec4dde5a73096aa25ab0e3f555a811a4aa6d335b0318cb3b
+checksum=9f8bdf286358ee513553bb97eae0234a85e4e1fc08eb6c0427d0db46631fd91a

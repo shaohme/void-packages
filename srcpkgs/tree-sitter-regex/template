@@ -1,10 +1,10 @@
 # Template file for 'tree-sitter-regex'
 pkgname=tree-sitter-regex
-version=0.21.0
+version=1.0.0
 revision=1
 archs="i686 x86_64"
 #build_wrksrc=
-build_style=gnu-makefile
+build_style=cargo
 #configure_args=""
 #make_build_args=""
 #make_install_args=""
@@ -19,4 +19,4 @@ license="MIT"
 homepage="https://github.com/tree-sitter/tree-sitter-regex"
 #changelog=""
 distfiles="https://github.com/tree-sitter/tree-sitter-regex/archive/refs/tags/v${version}.tar.gz"
-checksum=da2b1867e82753739837da9ff67a4ff4727ea683a326ef2627c69f4f63d0060b
+checksum=6cd46fb5a7b29f956daa5393e7b76fd9285e9028c9dcb9e0d5a9bea2c3db9015
